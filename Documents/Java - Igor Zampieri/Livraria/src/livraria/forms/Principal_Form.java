@@ -40,7 +40,6 @@ public class Principal_Form extends javax.swing.JFrame {
         jMenuItem_Cadastro_Editores = new javax.swing.JMenuItem();
         jMenuItem_Cadastro_Autores = new javax.swing.JMenuItem();
         jMenuItem_CadastroTitulos = new javax.swing.JMenuItem();
-        jMenu4 = new javax.swing.JMenu();
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -79,9 +78,6 @@ public class Principal_Form extends javax.swing.JFrame {
         jMenu_Titulos.add(jMenuItem_CadastroTitulos);
 
         jMenuBar2.add(jMenu_Titulos);
-
-        jMenu4.setText("Edit");
-        jMenuBar2.add(jMenu4);
 
         setJMenuBar(jMenuBar2);
 
@@ -171,7 +167,6 @@ public class Principal_Form extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuBar jMenuBar2;
     private javax.swing.JMenuItem jMenuItem2;

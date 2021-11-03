@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import livraria.BancoMysql;
 import livraria.classes.editoras;
-import livrarias.DAO.editorasDAO;
+import livraria.DAO.editorasDAO;
 
 public class Editoras_Form extends javax.swing.JFrame {
 

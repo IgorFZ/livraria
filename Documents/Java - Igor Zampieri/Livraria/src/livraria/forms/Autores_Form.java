@@ -7,7 +7,7 @@ package livraria.forms;
 
 import java.math.BigInteger;
 import livraria.classes.autores;
-import livrarias.DAO.autoresDAO;
+import livraria.DAO.autoresDAO;
 
 /**
  *

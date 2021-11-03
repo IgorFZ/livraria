@@ -9,9 +9,9 @@ import javax.swing.table.DefaultTableModel;
 import livraria.classes.autores;
 import livraria.classes.editoras;
 import livraria.classes.livros;
-import livrarias.DAO.autoresDAO;
-import livrarias.DAO.editorasDAO;
-import livrarias.DAO.livrosDAO;
+import livraria.DAO.autoresDAO;
+import livraria.DAO.editorasDAO;
+import livraria.DAO.livrosDAO;
 
 /**
  *
@@ -102,6 +102,7 @@ public class Livros_Form extends javax.swing.JFrame {
         jTable_Titulos = new javax.swing.JTable();
         jTextField_Pesquisar = new javax.swing.JTextField();
         jButton_Pesquisar = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         jLabel1.setText("jLabel1");
 
@@ -187,6 +188,8 @@ public class Livros_Form extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setText("Fechar");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -219,7 +222,8 @@ public class Livros_Form extends javax.swing.JFrame {
                                 .addComponent(jButton_Excluir))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jTextField_Codigo, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jButton1))))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jTextField_Pesquisar, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
@@ -232,7 +236,8 @@ public class Livros_Form extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(jTextField_Codigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextField_Codigo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
@@ -378,6 +383,7 @@ public class Livros_Form extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton_Alterar;
     private javax.swing.JButton jButton_Cadastrar;
     private javax.swing.JButton jButton_Excluir;

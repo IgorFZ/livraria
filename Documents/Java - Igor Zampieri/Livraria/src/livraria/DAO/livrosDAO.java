@@ -1,4 +1,4 @@
-package livrarias.DAO;
+package livraria.DAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -1,4 +1,4 @@
-package livrarias.DAO;
+package livraria.DAO;
 
 import livraria.classes.editoras;
 import java.sql.Connection;

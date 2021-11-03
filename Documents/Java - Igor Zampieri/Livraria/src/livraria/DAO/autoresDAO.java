@@ -1,4 +1,4 @@
-package livrarias.DAO;
+package livraria.DAO;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
